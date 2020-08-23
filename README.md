@@ -7,8 +7,8 @@ Haufe, S., & Ewald, A. (2019). A simulation framework for benchmarking EEG-based
 
 It also refers to the Chaotic Systems Toolbox (MATLAB) and the PALM (Permutation Analysis of Linear Models) software: 
 https://it.mathworks.com/matlabcentral/fileexchange/1597-chaotic-systems-toolbox
-https://www.sciencedirect.com/science/article/pii/S1053811914000913
+https://www.sciencedirect.com/science/article/pii/S1053811914000913.
 
-To replicate the plots from the paper, first generate simulated EEG datasets with different underlying source dynamics and compute wPLI and wSMI connectivity metrics using the main_script.m, followed by computing topographic and whole-brain accuracy.
+To replicate the plots from the paper, first generate simulated EEG datasets with different underlying source dynamics and compute wPLI and wSMI connectivity metrics using the main_script.m in the "GenerateEEGDatasets" folder, followed by computing topographic and whole-brain accuracy in the "TestPerformance" folder.
 
-Note that it is a very computationally expensive process that requires the use of computational clusters.
+Note that it is a very computationally expensive process that requires access to computational clusters.
